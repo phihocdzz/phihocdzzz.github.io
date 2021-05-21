@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.heart {
+    position: fixed;
+    top: -1vh;
+    animation: transform 3s linear forwards;
+    transform: translateY(0);
+}
+
+@keyframes transform {
+    to {
+        transform: translateY(105vh);
+    }
+}
